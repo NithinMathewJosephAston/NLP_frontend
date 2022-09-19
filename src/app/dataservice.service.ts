@@ -11,7 +11,7 @@ export class DataserviceService {
 
   
 
-  configUrl = 'http://8718-35-187-230-202.ngrok.io/predict'
+  configUrl = 'http://c1d6-35-233-207-234.ngrok.io/predict'
 
   constructor(private http: HttpClient) { }
 

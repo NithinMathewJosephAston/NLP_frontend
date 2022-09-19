@@ -38,7 +38,7 @@ export class AppComponent {
 
       this.showData = true;
       this.reqData = response
-      this.reqArrayData = Object.entries(this.response)
+      this.reqArrayData = Object.entries(response)
       this.answerData = this.reqArrayData[0]
       this.contextData = this.reqArrayData[1]
       this.contextHighlightData = this.reqArrayData[2]
