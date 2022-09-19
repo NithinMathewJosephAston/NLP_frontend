@@ -1,61 +1,95 @@
-.mainBox{
-    height:100vh;
+.mainBox {
+    height: 85vh;
 }
-.outerBox{
+
+.outerBox {
     height: 37rem;
+    width: 48rem;
     background-color: #131a2a;
 }
 
-.outerBoxextra{
+.outerBoxextra {
     height: 37rem;
-    width:48rem;
+    width: 48rem;
     background-color: #131a2a;
 }
 
-.outerBox2{
+.outerBox2 {
     height: 20rem;
     background-color: #202938;
     border-color: #383f51;
 }
-.outerBoxextra2{
+
+.outerBoxextra2 {
     height: 35rem;
     background-color: #202938;
     border-color: #383f51;
 }
 
-.outerBox3{
+.outerBox3 {
     height: 10rem;
     background-color: #202938;
     border-color: #383f51;
 }
-.inputBox2{
-    height:5rem;
+
+.inputBox2 {
+    height: 5rem;
     background-color: #202938;
     border-color: #383f51;
 }
 
-.inputBox1{
-    height:15rem;
+.inputBox1 {
+    height: 15rem;
     background-color: #202938;
     border-color: #383f51;
 }
 
-.btn1{
-    height:4rem;
-    width:22.5rem;
+.btn1 {
+    height: 4rem;
+    width: 21rem;
     background-color: #414a59;
     border-color: #383f51;
 }
 
-.btn2{
-    height:4rem;
-    width:22.5rem;
+.btn2 {
+    height: 4rem;
+    width: 21rem;
     background-color: #ce6400;
     border-color: #414a59;
 }
-.btn2:hover{
+
+.btn2:hover {
     opacity: .8;
 }
-.btn1:hover{
+
+.btn1:hover {
     opacity: .8;
+}
+
+.overFlowBox {
+    overflow-y: scroll;
+    height: 15rem;
+    border-color: #414a59;
+}
+
+.overFlowBox::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.inputBox1::-webkit-scrollbar {
+    display: none;
+  }
+
+.boxData {
+    border-color: #414a59;
+}
+
+.marked{
+    background-color: #f8ff00;
+    color:black;
+}
+
+.unmark{
+    background-color: #202938;
 }
