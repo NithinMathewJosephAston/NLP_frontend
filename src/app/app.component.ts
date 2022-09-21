@@ -28,14 +28,13 @@ export class AppComponent {
   constructor(private dataServ: DataserviceService) { }
 
   postData() {
-
+    this.contextFinalHighlightData = []
     let request = {
       context: this.context,
       question: this.question
     }
 
     this.dataServ.sendData(request).subscribe((response) => {
-
       this.showData = true;
       this.reqData = response
       this.reqArrayData = Object.entries(response)
@@ -49,6 +48,7 @@ export class AppComponent {
       this.createContextHighlightData()
       this.createContextHighlight()
     })
+
   }
 
   createContextHighlightData() {
@@ -83,6 +83,7 @@ export class AppComponent {
   clearData() {
     this.context = '';
     this.question = '';
+
   }
 }
 
